@@ -29,3 +29,8 @@ function untilNum(num){
     }
 }
 untilNum(40)
+
+function mutliply (num1,num2){
+    return num1 * num2
+}
+console.log (mutliply( 20,4))
