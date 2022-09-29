@@ -67,6 +67,15 @@ function largest(num1,num2,num3){
     
 }console.log(largest(4,62,8))
 
+function printTime (){
+
+var today = new Date();
+    var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+
+    return today
+}
+
+console.log(printTime())
 
 // if the year is divisible by 4
 function isLeapYear(num){
