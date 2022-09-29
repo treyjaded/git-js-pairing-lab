@@ -66,3 +66,33 @@ function largest(num1,num2,num3){
     return Math.max(num1, num2, num3)
     
 }console.log(largest(4,62,8))
+
+
+// if the year is divisible by 4
+function isLeapYear(num){
+    
+    if (num % 4 === 0 ){ 
+        if (num % 100 === 0 && num % 400 != 0){
+            return false
+        } else {
+            return true
+        }
+        
+    } else {
+        return false
+    }
+
+}
+console.log(isLeapYear(2000))
+console.log(isLeapYear(1900))
+console.log(isLeapYear(2020))
+console.log(isLeapYear(1999))
+
+// 2000 - is divisible by 4, is divisible by 100, is divisible by 400 - true
+// 1900 - is divisible by 4, is divisible by 100, is not divisible by 400 - false
+// 2020 - is divisible by 4, is  not divisible by 100, is not divisible by 400 - true
+// 1999 - is not divisible by 4, is not divisble by 100, is not divisible by 400
+
+
+
+//&& num % 100 != 0 && num % 400 === 0
