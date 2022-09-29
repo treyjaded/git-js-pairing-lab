@@ -45,10 +45,13 @@ function add(num1,num2){
 console.log(add(2,2))
 
 function isNegative(num){
-    if (num < 0){
-        return true
-    }
-     else return false 
+    if (num < 0) return true
+    return false 
 }
 console.log(isNegative (Math.PI))
+
+function triangleArea(base,height){
+    return (base * height) /2
+}
+console.log(triangleArea(6,8))
 

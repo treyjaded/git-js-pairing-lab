@@ -119,7 +119,7 @@ add(6, 6)     //returns 36 because the sum of 6 + 6 = 12 and 36 is triple that
 isNegative(3)         //returns false
 isNegative(-2)        //returns true
 isNegative(Math.PI)   //returns false
-```
+``` 
 
 8. Write a function `triangleArea` that takes in the height and base of a triangle and **returns** the [area of the triangle](https://www.mathsisfun.com/algebra/trig-area-triangle-without-right-angle.html). 
 ```
