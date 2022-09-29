@@ -60,5 +60,9 @@ function betweenTwentyAndFourty(num){
      return false
         
     }
-
 console.log(betweenTwentyAndFourty(21))
+
+function largest(num1,num2,num3){
+    return Math.max(num1, num2, num3)
+    
+}console.log(largest(4,62,8))
